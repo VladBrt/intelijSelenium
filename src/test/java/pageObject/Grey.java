@@ -29,5 +29,6 @@ public class Grey {
     public void test2(){
         System.out.println("Junit test 2");
         System.out.println("Hello world");
+        //some new changes in develop branch
     }
 }
