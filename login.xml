@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Login" verbose="2">
+
+    <test name="Login test">
+
+            <classes>
+            <class name="recap.Soft"></class>
+            </classes>
+
+    </test>
+
+
+</suite>

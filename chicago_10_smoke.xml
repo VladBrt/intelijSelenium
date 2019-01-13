@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Smoke tests" verbose="2">
+
+    <test name="smoke tests">
+        <packages>
+            <!--package name = "pageObject"/>-->
+
+        </packages>
+        <classes>
+            <class name="recap.AmazonMenu"></class>
+            <class name="recap.Tabs">
+                <methods>
+                    <exclude name="toDo"/>
+                </methods>
+            </class>
+        </classes>
+        
+    </test>
+
+
+</suite>
